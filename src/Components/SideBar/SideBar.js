@@ -1,6 +1,7 @@
 import React from 'react';
 import './SideBar.css';
 import InsertChartIcon from '@mui/icons-material/InsertChart';
+import { dashboardItems } from '../Dashboard/DataItems';
 
 export const SideBar = ({ items = [], onPageClick }) => {
 
@@ -32,6 +33,12 @@ export const SideBar = ({ items = [], onPageClick }) => {
                 </li>
                 ))}
                 </ul>
+            </div>
+            <div className="autorization-container">
+                
+            </div>
+            <div className="footer">
+                <h6>Created by C. de Waal <span>&copy;</span> {new Date().getFullYear()}</h6>
             </div>
         </div>
     )

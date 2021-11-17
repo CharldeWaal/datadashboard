@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+
 }
 
 .flex-container{
@@ -7,13 +7,8 @@
   flex-direction: row;
 }
 
-.col {
+.main-column {
   display: flex;
   flex-direction: column;
-}
-
-.home {
-  background-color: thistle;
-  height: calc(100vh - 50px);
 }
 

@@ -2,7 +2,9 @@ import './App.css';
 import { TopBar } from '../src/Components/TopBar/TopBar';
 import { SideBar } from './Components/SideBar/SideBar';
 import { useState } from 'react';
-import { items } from './Components/SideBar/SideBarItems'
+import { items } from './Components/SideBar/SideBarItems';
+import { dashboardItems } from './Components/Dashboard/DataItems';
+import { Dashboard } from './Components/Dashboard/Dashboard';
 
 const App = () => {
 
@@ -16,9 +18,9 @@ const App = () => {
     <div className="App">
       <div className="flex-container">
         <SideBar items={items} onPageClick={handlePageClick}/>
-        <div className="col">
+        <div className="main-column">
           <TopBar text={text}/>
-          <div className="home">Home Page</div>
+          <Dashboard items={dashboardItems} />
         </div>
       </div>
     </div>
