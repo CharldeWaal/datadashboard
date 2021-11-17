@@ -1,0 +1,22 @@
+.button {
+    background-color: rgb(71, 130, 218);
+    border: none;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+    border-radius: 4px;
+    font-family: 'roboto', sans-serif;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    min-width: 64px;
+    position: relative;
+
+}
+
+.button:hover{
+    background-color: rgb(50, 93, 155);
+}

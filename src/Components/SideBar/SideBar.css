@@ -1,0 +1,87 @@
+.sidebar-container {
+    position: sticky;
+    background-color: rgb(35, 48, 68);
+    flex: 1;
+    height: 100vh;
+    width: 300px;
+    overflow: hidden;
+}
+
+.sidebar-title {
+    color: rgb(238, 238, 238);
+    padding: 16px 28px 4px;
+    opacity: 0.4;
+    text-transform: uppercase;
+    display: block;
+}
+
+.pro-div {
+    box-sizing: border-box;
+    display: inline-flex;
+    background-color: rgb(56, 142, 60);
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 9.35px;
+    height: 18px;
+    margin-left: 3px;
+    margin-top: -16px;
+    padding: 3px 3px;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 14.0333px;
+}
+
+.pro {
+    font-weight: 500;
+}
+
+.pages {
+    font-size: 0.696429rem;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:white
+}
+
+.items-wrapper{
+    background-color: rgb(35, 48, 68);
+    position: relative;
+}
+
+.pages {
+    font-size: 13px;
+    padding: 8px 0px;
+    list-style: outside none none;
+    outline: currentcolor none 0px;
+    min-width: 42px;
+}
+
+.page {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    padding: 6px 16px;
+    outline: currentcolor none 0px;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: auto;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px;
+}
+
+.page:hover, .page:active{
+    background-color: rgb(30, 41, 58);
+}
