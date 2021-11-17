@@ -13,22 +13,21 @@ export const SideBar = ({ items = [], onPageClick }) => {
         <div className="sidebar-container">
             <div className="logo-container">
                 <InsertChartIcon fontSize="large" color="primary"/>
-                <h3>Data Dashboard</h3>
+                <h1 className="app-title">Data Dashboard</h1>
                 <div className="pro-div">
                     <span className="pro">PRO</span>
                 </div>
             </div>
-
-            <div className="sidebar-title">
-                <h6 className="pages">PAGES</h6>
-            </div>
-            <div className="items-wrapper">
+            <div className="pages-wrapper">
+                <h6 className="pages-header">PAGES</h6>
                 <ul className="pages">
                 {Object.keys(items).map((item, i) => (
                 <li key={i} id={item} className="page" onClick={handleClick}>
                     <div className="page-content">
+                        <div className="page-items">
                         {items[item].img}
-                        <h3>{items[item].value}</h3>
+                        <h3 className="page-title">{items[item].value}</h3>
+                        </div>
                     </div>
                 </li>
                 ))}

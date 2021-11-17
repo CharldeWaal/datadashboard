@@ -9,31 +9,31 @@ import SoapIcon from '@mui/icons-material/Soap';
 export const items = {
     overview: {
         value: "Overview",
-        img: <InsightsIcon/>,
+        img: <InsightsIcon className="page-img"/>,
     },
 
     orders: {
         value: "Orders",
-        img: <ShoppingCartIcon/>,
+        img: <ShoppingCartIcon className="page-img"/>,
     },
 
     staff: {
         value: "Staff",
-        img: <SupervisorAccountIcon/>
+        img: <SupervisorAccountIcon className="page-img"/>
     },
 
     weight: {
         value: "Weight",
-        img: <FitnessCenterIcon />,
+        img: <FitnessCenterIcon className="page-img"/>,
     },
 
     giveaway: {
         value: "Give Away",
-        img: <SoapIcon/>,
+        img: <SoapIcon className="page-img"/>,
     },
 
     waste: {
         value: "Waste",
-        img: <DeleteIcon />,
+        img: <DeleteIcon className="page-img"/>,
     },
 };
